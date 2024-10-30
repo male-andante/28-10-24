@@ -1,11 +1,11 @@
 
 body{
     margin:0;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    height: 100vh;
-    align-items: center;
+    align-items: center;*/
     width: 100%;
+    height: 100vh;
 }
 
 h1{
@@ -14,20 +14,35 @@ h1{
 }
 
 h2{
-    font-size: 1.8em;
+    font-size: 1.5em;
+    font-weight: 500;
+    border-bottom: 1px solid lightblue;
+    padding-bottom: 0.7em;
 }
 
 h3{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: medium;
+}
+
+h4{
+    font-size: 1.1em;
+}
+
+li{
+    padding: 0.6em 0em 0.6em 0;
 }
 
 #topbar span{
     text-transform: uppercase;
-    font-weight: medium;
+    font-weight: bold;
 }
 
-/*Container Homepage*/
+#topbar p{
+    margin: 0.8em;
+}
+
+/*Macro container Homepage*/
 
 header{
     display: flex;
@@ -41,10 +56,7 @@ header{
     justify-content: center;
     width: 100%;
     background-color: lightgoldenrodyellow;
-    /*max-height: 6em;*/
-    padding: 0.5em 0;
     border-top: 0.1em solid yellowgreen;
-
 }
 
 main{
@@ -58,10 +70,9 @@ main{
 }
 
 footer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 1em;
+    width: 50%;
+    margin: auto;
+    padding: 0.5em;
 }
 
 /*elementi della home*/
@@ -73,18 +84,24 @@ footer{
 }
 
 .page-title{
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
 }
 
 .page-introduction{
-    display: flex;
-    justify-content: flex-start;
+    /*display: flex;
+    justify-content: flex-start;*/
 }
 
 .hero-image{
     border-radius: 16px;
     box-shadow: 6;
+    width: 100%;
+}
+
+.image-credits{
+    display: flex;
+    justify-content: center;
 }
 
 .image-credits p {
@@ -92,8 +109,7 @@ footer{
 }
 
 .related-content{
-    width: 100%;
-    padding: 1em;
+    padding-left: 1.2em;
     border-left: 1px solid darkgoldenrod;
 
 }
@@ -107,7 +123,5 @@ footer{
     color: darkred;
     font-weight: 300;
     line-height: 1em;
+    margin: 0;
 }
-
-
-
