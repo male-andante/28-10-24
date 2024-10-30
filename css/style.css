@@ -95,16 +95,6 @@ footer{
     padding: 2em;
 }
 
-.page-title{
-    /*display: flex;
-    justify-content: center;*/
-}
-
-.page-introduction{
-    /*display: flex;
-    justify-content: flex-start;*/
-}
-
 .hero-image{
     border-radius: 16px;
     box-shadow: 6;
